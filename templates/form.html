@@ -1,13 +1,13 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Simple Flask Project</title>
-	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
-</head>
-<body>
-	<form action=''>
-	<input type="text">
-	<input type="text">
-	<input type="submit">
-	</form>
-</body>
+	<head>
+		<title>Simple Flask Project</title>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+	</head>
+	<body>
+		<form action='/process' method='post'>
+			Name: <input type="text" name="name" id="name">
+			<input type="submit" value="form process">
+		</form>
+	</body>
 </html>
