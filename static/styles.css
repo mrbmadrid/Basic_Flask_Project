@@ -1,3 +1,21 @@
 body {background-color: coral;}
 
 h1 {color: red;}
+
+input {
+	margin: 10px auto;
+}
+
+.row {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	background-color: lightgray;
+}
+
+.container * {
+	margin-left: 20px;
+}
